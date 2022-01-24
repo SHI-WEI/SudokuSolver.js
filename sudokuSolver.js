@@ -56,6 +56,6 @@ const matrix = [ [0, 0, 0, 0, 0, 3, 0, 5, 0],
                  [0, 0, 7, 0, 0, 2, 5, 0, 1],
                  [5, 0, 0, 0, 1, 0, 0, 0, 3] ];
 
-const result = run(matrix, result => {
+run(matrix, result => {
     console.log(result);
 });
